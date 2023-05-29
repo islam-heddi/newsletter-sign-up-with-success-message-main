@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mobile-pic{
+    display: none;
+}
+
+
+body{
+
+    background-color: hsl(234, 29%, 20%);
+    font-size: larger;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: inline-flex;
+    flex-direction: row;
+    gap: 120px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+h1{
+    color : hsl(235, 18%, 26%);
+}
+
+p{
+    color: hsl(231, 7%, 60%);
+}
+
+li{
+    color: hsl(231, 7%, 60%);
+    width: 450px;
+}
+
+.details{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.picture{
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#check{
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#check:hover{
+    background-color: rgb(255, 98, 87);
+    box-shadow: 2px 28px 65px -3px rgba(255,98,87,0.35);
+-webkit-box-shadow: 2px 28px 65px -3px rgba(255,98,87,0.35);
+-moz-box-shadow: 2px 28px 65px -3px rgba(255,98,87,0.35);
+}
+
+input{
+    padding: 20px;
+    width: 300px;
+    font-size: 20px;
+    border-radius : 10px;
+    border-color:  hsl(231, 7%, 60%);
+    border-style: solid;
+}
+
+h5{
+    margin-bottom: 12px;
+    color: hsl(235, 18%, 26%);
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+li::before{
+    content: url(./assets/images/icon-list.svg);
+    margin-right: 12px;
+}
+
+.success{
+    display: none;
+    flex-direction: column;
+    font-size: 25px;
+    padding: 60px;
+    width: 500px;
+    line-height: 48px; 
+}
+
+.success img{
+    max-width: 15%;
+    height: auto;
+}
+
+.success h1{
+   margin-bottom: 1px;
+}
+
+.success p{
+    line-height: 30px;
+}
+
+.valid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 340px;
+}
