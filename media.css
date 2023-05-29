@@ -40,11 +40,16 @@
         margin-left: 0px;
         max-width: 350px;
     }
-
-    #check{
-        width: var(.picture);
-        height: auto;
+    .success{        
+        justify-content: space-evenly;
+        width: auto;
+        gap: 100px;
+        align-items: flex-start;
+        padding: 0;
     }
 
+    .success img{
+        max-width: 70px;
+    }
 
 }
