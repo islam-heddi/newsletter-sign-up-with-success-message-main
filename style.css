@@ -38,10 +38,7 @@ p{
     color: hsl(231, 7%, 60%);
 }
 
-li{
-    color: hsl(231, 7%, 60%);
-    width: 450px;
-}
+
 
 .details{
     margin-left: 30px;
@@ -90,6 +87,8 @@ h5{
 li{
     list-style: none;
     margin-bottom: 10px;
+    color: hsl(231, 7%, 60%);
+    width: 450px;
 }
 
 li::before{
